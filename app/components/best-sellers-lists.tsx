@@ -20,7 +20,7 @@ export default async function BestSellersLists() {
       {lists.map((list: IList) => {
         return (
           <button className={styles.bookIds}>
-            <Link href={`/list/${list.list_name_encoded}`}>
+            <Link prefetch href={`/list/${list.list_name_encoded}`}>
               {list.display_name} &rarr;
             </Link>
           </button>

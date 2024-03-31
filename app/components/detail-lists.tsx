@@ -22,7 +22,7 @@ export default async function DetailLists({ id }: { id: string }) {
       {detailLists.map((detailList: IDetail) => {
         return (
           <div className={styles.book}>
-            <Link href={`${detailList.amazon_product_url}`}>
+            <Link prefetch href={`${detailList.amazon_product_url}`}>
               <img
                 className={styles.img}
                 src={detailList.book_image}
@@ -32,7 +32,9 @@ export default async function DetailLists({ id }: { id: string }) {
             <h3 className={styles.title}>{detailList.title}</h3>
             <h5 className={styles.author}>{detailList.author}</h5>
             <button className={styles.amazonLink}>
-              <Link href={detailList.amazon_product_url}>Buy now &rarr;</Link>
+              <Link prefetch href={detailList.amazon_product_url}>
+                Buy now &rarr;
+              </Link>
             </button>
           </div>
         );
