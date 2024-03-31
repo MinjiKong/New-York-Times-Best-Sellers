@@ -1,0 +1,25 @@
+.div {
+  border: 2px solid black;
+  padding: 0px 30px;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.li {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.li a {
+  color: black;
+  text-decoration: underline; /* Remove text decoration for anchor tags inside list items */
+}
+
+.li a:hover {
+  text-decoration-color: lightgray;
+}

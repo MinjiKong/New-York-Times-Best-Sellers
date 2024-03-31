@@ -1,0 +1,49 @@
+.div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.book {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+  height: 670px;
+  width: 350px;
+  margin: 30px 10px;
+}
+
+.img {
+  width: 350px;
+  height: 500px;
+}
+
+.title {
+  margin: 15px 0 0 20px;
+}
+
+.author {
+  margin: 10px 0 0 20px;
+  color: rgb(27, 148, 228);
+}
+
+.amazonLink {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin: 15px 0 0 20px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.amazonLink a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.amazonLink:active {
+  border: 2px solid lightgray;
+}
+
+.amazonLink:hover {
+  transform: translateY(-5px) scale(1.05); /* Move up and scale */
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3); /* Adjust shadow */
+}

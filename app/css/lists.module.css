@@ -1,0 +1,22 @@
+.bookIds {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin: 10px 20px 20px 0px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.bookIds a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bookIds:hover {
+  transform: translateY(-5px) scale(1.05); /* Move up and scale */
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3); /* Adjust shadow */
+}
+
+.bookIds:active {
+  border: 2px solid lightgray;
+}
