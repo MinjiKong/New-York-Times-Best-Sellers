@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import BestSellersLists from "./components/best-sellers-lists";
 
-import styles from "../css/home.module.css";
+import styles from "./css/home.module.css";
 
 export const API_URL = "https://books-api.nomadcoders.workers.dev/list";
 
