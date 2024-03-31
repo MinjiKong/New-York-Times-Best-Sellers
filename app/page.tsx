@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import BestSellersLists from "../components/best-sellers-lists";
+import BestSellersLists from "./components/best-sellers-lists";
 
 import styles from "../css/home.module.css";
 
