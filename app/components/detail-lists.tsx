@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { API_URL } from "../page";
+import { API_URL } from "../constants";
 import styles from "../css/detail.module.css";
 
 interface IDetail {
